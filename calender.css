@@ -14,8 +14,7 @@ td {
 }
 
 table {
-    position: relative;
-    left: 250px;
+    margin: 0px auto;
 }
 
 td {
