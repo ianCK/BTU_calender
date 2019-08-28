@@ -1,0 +1,48 @@
+.title {
+    color: #0222e4;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+}
+
+table,
+tr,
+td {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 3px;
+}
+
+table {
+    position: relative;
+    left: 250px;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    /* text-align: left; */
+    vertical-align: baseline;
+    font-size: 20px;
+    background: honeydew;
+}
+
+.index>td {
+    height: fit-content;
+    text-align: center;
+    background: antiquewhite;
+}
+
+.next_month {
+    background: darkgray;
+    color: dimgray;
+}
+
+.last_month {
+    background: darkgray;
+    color: dimgray;
+}
+
+.holiday {
+    color: red;
+}
